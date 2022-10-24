@@ -1,0 +1,799 @@
+
+header, section, footer {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    height: 100px;
+    background-color: transparent;
+}
+
+    #marca {
+        width: 310px;
+        height: 100px;
+        background: url(multimedia/imagen/marca.png) no-repeat center;
+        float: left;
+    }
+
+    #botonera_header {
+        width: 650px;
+        height: 70px;
+        background-color: transparent;
+        float: right;
+        margin-top: 15px;
+    }
+
+        #bothead_ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        #bothead_ul li{
+            display: inline;
+        }
+
+        #bothead_ul li a{
+            display: inline-block;
+            background-color: orange;
+            width: 140px;
+            padding: 24px;
+            border: 2px solid black;
+            border-radius: 10px;
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            text-align: center;
+            margin-left: 7.5px;
+        }
+
+        #bothead_ul li a:hover{
+            background-color: red;
+        }
+
+#Actividades {
+    height: 800px;
+    background: -webkit-linear-gradient(top, orange 10%, white);
+}
+
+    .imagen {
+        width: 300px;
+        height: 240px;
+        float: left;
+        margin-left: 12px;
+        margin-top: 15px;
+        background-color: black;
+        box-shadow: 5px 10px 7px rgba(1,0,0,0.5), -5px -10px 7px rgba(1,0,1,0);
+    }
+
+    #musculacion_txt, #crossfit_txt, #funcional_txt {
+        width: 295px;
+        height: 505px;
+        float: left;
+        border: 2.5px solid;
+        border-color: rgb(53, 53, 53);
+        border-radius: 10px;
+        margin-left: 15px;
+        margin-top: 15px;
+        background-color: transparent;
+        box-shadow: 5px 10px 7px rgba(1,0,0,0.5), -5px -10px 7px rgba(1,0,1,0);
+    }
+    
+ h2{
+        color: orangered;
+        background-color: black;
+        text-transform:uppercase;
+        padding: 5px;
+        font-family: georgia;
+        text-align: center;
+    }   
+
+    .txt_parrafo{
+        font-family: 'Oleo Script', Arial, cursive;/*fuente de google*/
+        color: black;
+        font-size: 0.36cm;
+        text-align: justify;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+    .txt_rojo {
+        color: red;
+        font-weight: bold;
+    }
+
+
+#contenido2 {
+    height: 720px;
+    background: -webkit-linear-gradient(top, white 10%, orange)
+}
+
+    #cont2_1, #cont2_2, #cont2_3, #cont2_4, #cont2_5 {
+        width: 300px;
+        height: 300px;
+        float: left;
+        margin-top: 40px;
+        background: -webkit-linear-gradient(top, rgb(0, 68, 255) 10%, aqua);
+        box-shadow: 5px 10px 7px rgba(1,0,0,0.5), -5px -10px 7px rgba(1,0,1,0);
+    }
+
+    #cont2_1, #cont2_2, #cont2_3, #cont2_5 {
+        margin-left: 15px;
+    }
+
+    #cont2_4 {
+        margin-left: 172.5px;
+
+    }
+
+        .parrafosabon{
+            color: white;
+            text-transform:uppercase;
+            font-size: 50px;
+            font-family: 'Roboto Slab', serif;/*fuente de google*/
+            text-align: center;
+            margin-top:20%;
+            margin-bottom: auto;
+            clear: right; 
+        }
+
+        h5{
+            color: white;
+            background: linear-gradient(to right, GREY, rgb(45, 45, 45), black);
+            padding: 4px;
+            font-family: georgia;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+        }
+
+#horario {
+    height: auto;
+    background: -webkit-linear-gradient(top, orange 10%, white);
+
+}
+
+    #disiplinas{
+        height: auto;
+    }
+
+    #bot_disi{
+        height: auto;
+        width: 90%;
+        margin-left: 5%;
+        background: linear-gradient(to bottom, blue, rgb(0, 128, 255) 30%, white);
+        padding: 10px;
+        box-shadow: 5px 10px 7px rgba(1,0,0,0.5), -5px -10px 7px rgba(1,0,1,0);
+
+    }
+
+    label{
+        color: white
+    }
+    
+    #derecha{
+        float: right;
+    }
+
+
+
+    .btn{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        box-shadow: 5px 10px 7px rgba(1,0,0,0.5), -5px -10px 7px rgba(1,0,1,0);
+    }
+
+    .usuario{
+        margin-top: 5px;
+    }
+
+    #d_crosf{
+        margin-right: 20px;
+    }
+
+    button{
+        margin-top: 5px;
+    }
+    
+    option{
+        background-color:blanchedalmond;
+        color: blue;
+    }
+
+    #tab_hor{
+        height: auto;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        background-color: transparent;
+    }
+
+        #tabla{
+            background: url(multimedia/imagen/tabla.jpg) repeat center;
+            box-shadow: 5px 10px 7px rgb(201, 64, 64);
+            width: 900px;
+            height: auto;
+            margin-left: 3%;
+        }
+    
+    .card{
+        background-color: transparent;
+        padding: 0px;
+        text-align: justify;
+        border: none;
+        color: white;
+        font-weight: bold;
+    }
+    
+    table{
+        margin-top: 12px;
+    }
+
+    th{
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+    td{
+        text-align: center;
+        font-weight: bold;
+        color: rgb(255, 0, 0);
+    } 
+
+    thead{
+        border: white 3px solid;
+    }
+    tbody{
+        border: white 3px solid;
+    }
+    tr:hover{
+        background: linear-gradient(to bottom, red, orange, white);
+    }
+
+#Consulta {
+    height: 420px;
+    background: -webkit-linear-gradient(top, white 10%, orange)
+}
+
+    #nombre, #edad, #telefono, #email, #peso {
+        height: 80px;
+        margin-top: 20px;
+        float: left;
+        border: 3px solid black;
+        background-color: beige;
+    }
+
+    #nombre, #email, #peso {
+        width: 600px;
+        margin-left: 180px;
+    }
+
+    #edad {
+        width: 290px;
+        margin-left: 180px;
+    }
+
+    #telefono {
+        width: 290px;
+        margin-left: 20px;
+    }
+
+        h4{
+            color: rgb(255, 0, 0);
+            background-color: gray;
+            padding: 3px;
+            font-family: georgia;
+            text-align: left;
+            text-decoration: underline;
+            margin-top: 0px;
+        }
+
+        .txtConsulta{
+            font-family: 'Oleo Script', Arial, cursive;/*fuente de google*/
+            color: black;
+            font-size: 0.45cm;
+            text-align:none;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        #btn_consulta{
+            clear: right;
+            float: right;
+            color: black;
+            margin-right: 80px;
+            margin-top: 40px;
+        }
+
+footer {
+    height: 200px;
+    background-color:black;
+}
+
+    #marca_footer {
+        width: 310px;
+        height: 100px;
+        margin-top: 15px;
+        background: url(multimedia/imagen/marca.png) no-repeat center;
+        float: left;
+    }
+
+    #art_frase{
+        width: 310px;
+        height: 100px;
+        float: left;
+        clear: left;   
+    }
+
+    #direccion{
+        width: 310px;
+        height: 60px;
+        margin-top: 30px;
+        float: right;
+    }
+
+    #contacto{
+        width: 310px;
+        height: 60px;
+        float: right;
+        clear: right;
+    }
+
+    
+        h1{
+            color: white;
+            text-transform:uppercase;
+            padding: 5px;
+            font-size: 20px;
+            font-family: 'Permanent Marker', Arial, cursive;/*fuente de google*/
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        h3{
+            color: white;
+            text-transform:uppercase;
+            font-size: 10px;
+            font-family: 'Roboto Slab', serif;/*fuente de google*/
+            text-align: right;
+            margin-right: 30px;
+            clear: right;
+        }
+
+        a{
+            color: white;
+        }
+        
+@media all and (min-width: 600px) and (max-width: 1023px){
+    header, section, footer {
+        width: 580px;
+    }
+    
+    header {
+        height: 200px;
+    }
+    
+        #marca {
+            width: 210px;
+        }
+    
+    
+        #botonera_header {
+            width: 560px;
+            height: 70px;
+            background-color: transparent;
+            margin-top: 15px;
+            float: none;
+            clear: both;
+        }
+    
+            #bothead_ul li a{
+                width: 120px;
+                height: 55px;
+                margin-left: 10px;
+                padding: 12px;
+            }
+          
+            
+    #Actividades {
+        height: 810px;
+        }
+    
+        .imagen {
+            width: 180px;
+            height: 150px;
+            margin-left: 7.5px;
+            margin-right: 5px;
+        }
+
+        .imagen img{
+            height: 100%;
+            width: 100%;
+        }
+    
+        #musculacion_txt, #crossfit_txt, #funcional_txt {
+            width: 170px;
+            height: 605px;
+            margin-left: 11.5px;
+            margin-right: 11.5px;
+        }
+        
+        h2{
+            padding: 2.5px;
+            font-size: 20px;
+        }
+    
+        .txt_parrafo{
+            font-size: 0.31cm;
+            margin-left: 2px;
+            margin-right: 2px;
+        }
+
+    #contenido2 {
+        height: 520px;
+    }
+    
+        #cont2_1, #cont2_2, #cont2_3, #cont2_4, #cont2_5 {
+            width: 170px;
+            height: 200px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    
+        #cont2_1, #cont2_2, #cont2_3, #cont2_5 {
+            margin-left: 15px;
+        }
+    
+        #cont2_4 {
+            margin-left: 112.5px;
+    
+        }
+    
+    #horario {
+        height: 1020px;
+    }
+
+
+    .btn{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+
+    }
+
+    #tabla{
+
+        width: auto;
+        height: auto;
+        margin-left: 5%;
+    }
+
+    .card{
+        font-size: 8px;
+    }
+    
+    #Consulta {
+        height: 450px;
+        background-color: crimson;
+    }
+    
+        #nombre, #edad, #telefono, #email, #peso {
+            height: 75px;
+        }
+    
+        #nombre, #email, #peso {
+            width: 540px;
+            margin-left: 20px;
+        }
+    
+        #edad {
+            width: 260px;
+            margin-left: 20px;
+        }
+    
+        #telefono {
+            width: 260px;
+            margin-left: 20px;
+        }
+
+        #btn_consulta{
+            clear: both;
+            float: right;
+            color: black;
+            margin-right: 22px;
+            margin-top: 20px;
+        }
+    
+    footer {
+        height: 200px;
+    }
+    
+        #marca_footer {
+            width: 210px;
+        }
+    
+        #art_frase{
+            width: 210px;
+            height: 100px;
+        }
+    
+        #direccion{
+            width: 210px;
+            margin-top: 50px;
+        }
+    
+        #contacto{
+            width: 210px;
+            height: 60px;
+        }
+            h3{
+                margin-right: 10px;
+            }
+    
+            a{
+                color: white;
+            }
+}/* finaliza media 600x1023 */
+
+@media all and (max-width: 599px) {
+    header, section, footer {
+        width: 95%
+    }
+    
+    header {
+        height: auto;
+    }
+    
+        #marca {
+            width: 100%;
+            height: 120px;
+        }
+    
+    
+        #botonera_header {
+            width: auto;
+            height: auto;
+            float: none;
+            clear: both;
+        }
+    
+    
+            #bothead_ul li{
+                display:block;
+            }
+    
+            #bothead_ul li a{
+                width: 100%;
+                padding: 10px;
+                margin-top: 3px;
+            }
+
+    #Actividades {
+        height: auto;
+    }
+    
+        .imagen {
+            width: 90%;
+            height: auto;
+            float: none;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 1px;
+            clear: left;
+        }
+
+        .imagen img{
+            height: 100%;
+            width: 100%;
+        }
+    
+        #musculacion_txt, #crossfit_txt, #funcional_txt {
+            width: auto;
+            height: auto;
+            float: none;
+            border: 2.5px solid;
+            margin-left: 1.5%;
+            margin-right:  1.5%;
+            margin-top: 15px;
+            background-color: transparent;
+            box-shadow: 5px 10px 7px rgba(1,0,0,0.5), -5px -10px 7px rgba(1,0,1,0);
+        }
+        
+        h2{
+            text-transform:lowercase;
+            padding: auto;
+            font-size: 100%;
+        }
+    
+        .txt_parrafo{
+            font-family: 'Oleo Script', Arial, cursive;/*fuente de google*/
+            color: black;
+            font-size: auto;
+            text-align: justify;
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+    
+        .txt_rojo {
+            color: red;
+            font-weight: bold;
+        }
+    
+    
+    #contenido2 {
+        height: auto;
+
+    }
+    
+        #cont2_1, #cont2_2, #cont2_3, #cont2_4, #cont2_5 {
+            width: 90%;
+            height: 300px;
+            float: none;
+            margin-top: 5%;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        #horario {
+            height: auto;
+        }
+        
+            #bot_disi{
+                height: auto;
+                width: 90%;
+                padding: 2px;
+                margin-left: 5%;
+        
+            }
+        
+            #botoneras_actividad{
+                margin-left: 2%;
+                margin-top: 10px;
+                
+            }
+
+            button{
+                width: 90%;
+            }
+        
+            .btn{
+                margin-top: 2px;
+                margin-bottom: 2px;
+                margin-left: 5px;
+                padding: 1px;
+        
+            }
+        
+            #tab_hor{
+                height: auto;
+                margin-bottom: 10px;
+                background-color: transparent;
+            }
+        
+                #tabla{
+                    background: url(multimedia/imagen/tabla.jpg) no-repeat center;
+                    box-shadow: none;
+                    width: 100%;
+                    height: auto;
+                    margin-left: 0px;
+                }
+            
+            .card{
+                
+                font-size: 4px;
+            }
+            
+            table{
+                margin-top: 5%;
+                height: auto;
+                width: 100%;
+            }
+        
+            th{
+                text-align: center;
+                color: white;
+                font-size: 7px;
+            }
+            td{
+                text-align: center;
+                font-weight: bold;
+                color: rgb(255, 0, 0);
+                font-size: 7px;
+            } 
+        
+            thead{
+                border: white 3px solid;
+            }
+            tbody{
+                border: white 3px solid;
+            }
+            tr:hover{
+                background: linear-gradient(to bottom, red, orange, white);
+            }
+        
+    #Consulta {
+            height: auto;
+            margin-top: 0%;
+        }
+        
+            #nombre, #edad, #telefono, #email, #peso {
+                height: auto;
+                float: none;
+                width: 95%;
+                margin-top: 4%;
+                margin-left: 2.5%;
+                margin-right: 2.5%;
+            }
+
+            #btn_consulta{
+                clear: both;
+                width: 95%;
+                float: none;
+                color: black;
+                margin-right: 5px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+        
+        footer {
+            height: auto;
+        }
+        
+            #marca_footer {
+                width: 30%;
+                height: 100px;
+                margin-top: 0%;
+                margin-left: 35%;
+                margin-right: 35%;
+                background: url(multimedia/imagen/marca.png) no-repeat center;
+                float: none;
+            }
+        
+            #art_frase{
+                width: 90%;
+                height: auto;
+                float: none;
+                margin-left: 5%;
+                margin-right: 5%;  
+            }
+        
+            #direccion{
+                width: 90%;
+                height: auto;
+                margin-top: 5%;
+                float: none;
+            }
+        
+            #contacto{
+                width: 90%;
+                height: auto;
+                float: none;
+                clear: right;
+            }
+        
+            
+                h1{
+                    color: white;
+                    text-transform:uppercase;
+                    padding: 5px;
+                    font-size: 20px;
+                    font-family: 'Permanent Marker', Arial, cursive;/*fuente de google*/
+                    text-align: center;
+                    margin-bottom: 10px;
+                }
+                h3{
+                    color: white;
+                    text-transform:uppercase;
+                    font-size: 10px;
+                    font-family: 'Roboto Slab', serif;/*fuente de google*/
+                    text-align: right;
+                    margin-right: 30px;
+                    clear: right;
+                }
+        
+                a{
+                    color: white;
+                }
+}

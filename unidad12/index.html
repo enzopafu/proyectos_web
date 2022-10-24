@@ -1,0 +1,1364 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La MECA</title>
+    <!--css bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--css bootstrap-->
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script type="text/javascript" src="js/unidad7.js"></script>
+    <!--fuente de google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Permanent+Marker&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+    <!--fuente de google-->
+</head>
+
+<body>
+    <header>
+        <div id="marca">
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-light bg-light"
+            id="botonera_header">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mb-md-0" id="bothead_ul">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Actividades"> Actividades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#contenido2"> Abonos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#horario"> Horarios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#Consulta"> Consulta</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="Actividades">
+        <div class="imagen">
+            <img src="multimedia/imagen/musculacion.jpg" alt="">
+        </div>
+        <div class="imagen">
+            <img src="multimedia/imagen/crossfit.jpg" alt="">
+        </div>
+        <div class="imagen">
+            <img src="multimedia/imagen/funcional.jpg" alt="">
+        </div>
+        <article id="musculacion_txt">
+            <h2>Musculación</h2>
+            <p class="txt_parrafo">La musculación es una disciplina que requiere tiempo, dedicación y esfuerzo. Como su
+                propio nombre
+                indica, su objetivo es el desarrollo de los músculos.<br></br>
+                En la actualidad, la práctica de la musculación es uno de los recursos más utilizados por todo tipo de
+                personas ya sea para mejorar su físico, ganar masa muscular, perder peso o simplemente como complemento
+                para todo tipo de deportes.<br></br>
+                Para ello en <span class="txt_rojo"> LA MECA</span> cuenta con un profesor especializado en esta
+                disiplina en cada
+                turno, el cual se va a
+                dedicar a brindarte las herramientas necesarias para que puedas alcanzar tus objetivos.
+                <br></br>
+                Te adelantamos que el éxito del proceso de musculación depende de tres pilares básicos: La dieta, el
+                entrenamiento con rutinas de gimnasio adecuadas y el descanso. Si cuidas estos tres pilares tu éxito a
+                la hora de alcanzar tus objetivos está asegurado.
+            </p>
+        </article>
+        <article id="crossfit_txt">
+            <h2>Crossfit</h2>
+            <p class="txt_parrafo"> CrossFit es un sistema de acondicionamiento físico basado en ejercicios
+                constantemente variados, con
+                movimientos funcionales a alta intensidad.<br></br>
+                Para ello en <span class="txt_rojo"> LA MECA</span> relizamos rutinas con la combinación de ejercicios
+                con el peso
+                del cuerpo, levantamiento de pesas en estilo
+                olímpico y de potencia, y actividades monoestructurales como correr o remar, tradicionalmente conocidas
+                como “cardio”.<br></br>
+                Por eso proponemos un entrenamiento amplio, general e inclusivo. Diseñado para ser aplicado a todos
+                los niveles y todas las edades, desde personas con problemas cardiacos hasta deportistas de combate.
+            </p>
+        </article>
+        <article id="funcional_txt">
+            <h2>Funcional</h2>
+            <p class="txt_parrafo">
+                El entrenamiento funcional se basa en realizar ejercicios que se adaptan a los movimientos naturales del
+                cuerpo humano para trabajar de forma global músculos y articulaciones. Una de sus principales ventajas
+                es que se adaptan completamente a las condiciones físicas de cada persona, por eso resulta muy efectivo
+                como entrenamiento personal: mejora la movilidad corporal, la agilidad y el equilibrio, desarrolla la
+                salud cardiovascular, corrige la postura, fortalece la masa muscular y ayuda a mantener el peso.
+                <br></br>
+                En <span class="txt_rojo"> LA MECA</span> da igual tu edad, que lleves tiempo sin entrenarte o que seas
+                un deportista de alto nivel: la intensidad
+                de los ejercicios funcionales se adapta a tus capacidades físicas para proporcionarte importantes
+                beneficios de salud. Por eso son ideales para un plan de entrenamiento personalizado, porque se adaptan
+                a la fisiología y la biomecánica del cuerpo de cada persona y permiten obtener resultados optimizados a
+                tu entrenamiento.
+            </p>
+        </article>
+    </section>
+    <section id="contenido2">
+        <div id="cont2_1">
+            <a href="#cont2_1" onclick="mostrar()">
+                <h5>Por clase</h5>
+            </a>
+            <div id="#parrafo" style="display: none ;">
+                <p class="parrafosabon">$400</p>
+            </div>
+        </div>
+        <div id="cont2_2">
+            <a href="#cont2_1" onclick="mostrar2()">
+                <h5>Por semana</h5>
+            </a>
+            <div id="#parrafo1" style="display: none ;">
+                <p class="parrafosabon">$2000</p>
+            </div>
+        </div>
+        <div id="cont2_3">
+            <a href="#cont2_1" onclick="mostrar3()">
+                <h5>Por mes</h5>
+            </a>
+            <div id="#parrafo2" style="display: none ;">
+                <p class="parrafosabon">$3000</p>
+            </div>
+        </div>
+        <div id="cont2_4">
+            <a href="#cont2_1" onclick="mostrar4()">
+                <h5>Grupo familiar(3 Personas)</h5>
+            </a>
+            <div id="#parrafo3" style="display: none ;">
+                <p class="parrafosabon">$7000</p>
+            </div>
+        </div>
+        <div id="cont2_5">
+            <a href="#cont2_1" onclick="mostrar5()">
+                <h5>3 Disiplinas</h5>
+            </a>
+            <div id="#parrafo4" style="display: none ;">
+                <p class="parrafosabon">$4000</p>
+            </div>
+        </div>
+    </section>
+    <section id="horario">
+        <div id="disiplinas" class="container-fluid">
+            <div id="bot_disi" class="row">
+                <form>
+                    <h5>Usuario</h5>
+                    <div class="row mb-3">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" placeholder="Email" id="inputEmail3">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputPassword3" class="col-sm-2 col-form-label">Contraseña</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" placeholder="Contraseña" id="inputPassword3">
+                        </div>
+                    </div>
+                    <div class="form-check form-switch" id="derecha">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked"
+                            checked>
+                        <label class="form-check-label" for="flexSwitchCheckChecked">Recuerdame</label>
+                    </div>
+                    <div class="usuario"><a href="#horario">Crear usuario</a></div>
+                    <div class="usuario"><a href="#horario">Olvide mi contraseña</a></div>
+                    <button type="submit" class="btn btn-primary" id="derecha">Iniciar Sesión</button>
+                </form>
+            </div>
+            <div id="botoneras_actividad" class="row">
+                <div id="d_musc" class="offset-lg-1 col-lg-2 offset-md-1 col-md-2">
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#Musculación"
+                    aria-expanded="false" aria-controls="multiCollapseExample1">Musculación</button>
+                </div>
+                <div id="d_crosf" class="offset-lg-2 col-lg-2  offset-md-2 col-md-1">
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#CrossFit"
+                    aria-expanded="false" aria-controls="multiCollapseExample2">CrossFit</button>
+                </div>
+                <div id="d_func" class="offset-lg-2 col-lg-2  offset-md-2 col-md-2"><button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#Funcional"
+                    aria-expanded="false" aria-controls="multiCollapseExample3">Funcional</button>
+                </div>
+            </div>
+            <div id="tab_hor" class="row">
+                <div id="tabla">
+                    <table class="table table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th colspan="8">Dias</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Hora</th>
+                                <th>Lunes</th>
+                                <th>Martes</th>
+                                <th>Miercoles</th>
+                                <th>Jueves</th>
+                                <th>Viernes</th>
+                                <th>Sabado</th>
+                            </tr>
+                            <tr>
+                                <th scope="row">09:00</th>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                    <div class="collapse multi-collapse" id="Musculación">
+                                        <div class="card card-body">
+                                            Musculación
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="CrossFit">
+                                        <div class="card card-body">
+                                            CrossFit 
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                    <div class="collapse multi-collapse" id="Musculación">
+                                        <div class="card card-body">
+                                            Musculación
+                                        </div>
+                                    </div>
+                                </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">10:00</th>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                    <div class="collapse multi-collapse" id="Musculación">
+                                        <div class="card card-body">
+                                            Musculación
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="CrossFit">
+                                        <div class="card card-body">
+                                            CrossFit 
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                    <div class="collapse multi-collapse" id="Musculación">
+                                        <div class="card card-body">
+                                            Musculación
+                                        </div>
+                                    </div>
+                                </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">11:00</th>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                    <div class="collapse multi-collapse" id="Musculación">
+                                        <div class="card card-body">
+                                            Musculación
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="CrossFit">
+                                        <div class="card card-body">
+                                            CrossFit 
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                    <div class="collapse multi-collapse" id="Musculación">
+                                        <div class="card card-body">
+                                            Musculación
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="CrossFit">
+                                        <div class="card card-body">
+                                            CrossFit 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="Funcional">
+                                        <div class="card card-body">
+                                            Funcional 
+                                        </div>
+                                    </div>
+                                </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">12:00</th>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                    <div class="collapse multi-collapse" id="Musculación">
+                                        <div class="card card-body">
+                                            Musculación
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="CrossFit">
+                                        <div class="card card-body">
+                                            CrossFit 
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                    <div class="collapse multi-collapse" id="Musculación">
+                                        <div class="card card-body">
+                                            Musculación
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="CrossFit">
+                                        <div class="card card-body">
+                                            CrossFit 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="Funcional">
+                                        <div class="card card-body">
+                                            Funcional 
+                                        </div>
+                                    </div>
+                                </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">13:00</th>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">14:00</th>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">15:00</th>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">16:00</th>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">17:00</th>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">18:00</th>
+                                <td>
+                                    <div class="col">
+                                    <div class="collapse multi-collapse" id="Musculación">
+                                        <div class="card card-body">
+                                            Musculación
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="CrossFit">
+                                        <div class="card card-body">
+                                            CrossFit 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="Funcional">
+                                        <div class="card card-body">
+                                            Funcional 
+                                        </div>
+                                    </div>
+                                </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                    <div class="collapse multi-collapse" id="Musculación">
+                                        <div class="card card-body">
+                                            Musculación
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="CrossFit">
+                                        <div class="card card-body">
+                                            CrossFit 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="Funcional">
+                                        <div class="card card-body">
+                                            Funcional 
+                                        </div>
+                                    </div>
+                                </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                    <div class="collapse multi-collapse" id="Musculación">
+                                        <div class="card card-body">
+                                            Musculación
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="CrossFit">
+                                        <div class="card card-body">
+                                            CrossFit 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="Funcional">
+                                        <div class="card card-body">
+                                            Funcional 
+                                        </div>
+                                    </div>
+                                </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                    <div class="collapse multi-collapse" id="Musculación">
+                                        <div class="card card-body">
+                                            Musculación
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="CrossFit">
+                                        <div class="card card-body">
+                                            CrossFit 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="Funcional">
+                                        <div class="card card-body">
+                                            Funcional 
+                                        </div>
+                                    </div>
+                                </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                    <div class="collapse multi-collapse" id="Musculación">
+                                        <div class="card card-body">
+                                            Musculación
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="CrossFit">
+                                        <div class="card card-body">
+                                            CrossFit 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="Funcional">
+                                        <div class="card card-body">
+                                            Funcional 
+                                        </div>
+                                    </div>
+                                </div>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">19:00</th>
+                                <td>
+                                    <div class="col">
+                                    <div class="collapse multi-collapse" id="Musculación">
+                                        <div class="card card-body">
+                                            Musculación
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="CrossFit">
+                                        <div class="card card-body">
+                                            CrossFit 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="Funcional">
+                                        <div class="card card-body">
+                                            Funcional 
+                                        </div>
+                                    </div>
+                                </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                    <div class="collapse multi-collapse" id="Musculación">
+                                        <div class="card card-body">
+                                            Musculación
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="CrossFit">
+                                        <div class="card card-body">
+                                            CrossFit 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="Funcional">
+                                        <div class="card card-body">
+                                            Funcional 
+                                        </div>
+                                    </div>
+                                </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                    <div class="collapse multi-collapse" id="Musculación">
+                                        <div class="card card-body">
+                                            Musculación
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="CrossFit">
+                                        <div class="card card-body">
+                                            CrossFit 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="Funcional">
+                                        <div class="card card-body">
+                                            Funcional 
+                                        </div>
+                                    </div>
+                                </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                    <div class="collapse multi-collapse" id="Musculación">
+                                        <div class="card card-body">
+                                            Musculación
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="CrossFit">
+                                        <div class="card card-body">
+                                            CrossFit 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="Funcional">
+                                        <div class="card card-body">
+                                            Funcional 
+                                        </div>
+                                    </div>
+                                </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                    <div class="collapse multi-collapse" id="Musculación">
+                                        <div class="card card-body">
+                                            Musculación
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="CrossFit">
+                                        <div class="card card-body">
+                                            CrossFit 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="collapse multi-collapse" id="Funcional">
+                                        <div class="card card-body">
+                                            Funcional 
+                                        </div>
+                                    </div>
+                                </div>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">20:00</th>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="CrossFit">
+                                            <div class="card card-body">
+                                                CrossFit 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">21:00</th>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="col">
+                                        <div class="collapse multi-collapse" id="Musculación">
+                                            <div class="card card-body">
+                                                Musculación
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Consulta">
+        <article id="nombre">
+            <h4>Nombre completo</h4>
+            <script type="text/javascript">
+                document.write('<p class = "txtConsulta">' + nomUser)
+            </script>
+        </article>
+        <article id="edad">
+            <h4>Edad</h4>
+            <script type="text/javascript">
+                document.write('<p class = "txtConsulta">Actualmente tengo ' + edad + ' años.</p>')
+            </script>
+        </article>
+        <article id="telefono">
+            <h4>Numero de telefono</h4>
+            <script type="text/javascript">
+                document.write('<p class = "txtConsulta">' + numTelefono + '</p>')
+            </script>
+        </article>
+        <article id="email">
+            <h4>Email</h4>
+            <script type="text/javascript">
+                document.write('<p class = "txtConsulta">' + email+ '</p>')
+            </script>
+        </article>
+        <article id="peso">
+            <h4>Objetivo:</h4>
+            <script type="text/javascript">
+                document.write('<p class = "txtConsulta"> Mi objetivo es llegar a los ' + pesoActual + 'kg, necesito bajar/subir:' + pesoObjetivo + 'kg.</p>')
+            </script>
+        </article>
+        <button type="button" class="btn btn-secondary" id="btn_consulta">Enviar</button>
+    </section>
+    <footer>
+        <div id="marca_footer"></div>
+        <article id="direccion">
+            <h3> Direccion: <a
+                    href="https://www.google.com/maps/place/Gym+La+Meca/@-32.9506776,-60.6788442,15z/data=!4m2!3m1!1s0x0:0x700dff62a3988196?sa=X&ved=2ahUKEwjsydjxuJf4AhUHiJUCHQECA-QQ_BJ6BAg1EAU">Av.
+                    Pellegrini 3879. Rosario, Santa Fe</a></h3>
+        </article>
+        <article id="contacto">
+            <h3>Telefono: 341-xxxxxx</h3>
+        </article>
+        <div id=""></div>
+        <article id="art_frase">
+            <h1>Entrena con los mejores</h1>
+        </article>
+    </footer>
+    <!--js de bootstrap-->
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <!--js de bootstrap-->
+    <script src="js/unidad8.js" type="text/javascript"></script>
+
+</body>
+
+</html>
